@@ -1,0 +1,23 @@
+NetBeans
+Very popular IDE with many static and binary libraries. It supports projects with C & C++. Additionally supports languages like Java, HTML5, PHP & others.
+
+Komodo IDE
+Komodo is a comprehensive IDE that can supports many languages, that you would need while making projects. Such as Python, PHP, Ruby, Perl, HTML, CSS and JavaScript. Komodo have all the modern tools for code editing like split view, multi-view, version control etc.
+
+Aptana Studio
+This is Ide that will be ideal for those who want to make modern web sites. The ide can be portable, no need for install. Aptana supports HTML5, CSS, JS, php, ruby, protocols and others.
+
+MonoDevelop
+This is the 'Visual Studio' of Linux operating system. Made very alike with Visual, still have work to be done.
+
+Coda 2
+Editor for Mac computers. Its mainly for web development. It have all the lastest languages & packages for making a cutting edge web site.
+
+WebStorm
+Ide also mainly for web dev or app dev. The ide is mainly focused of js development. Very nice ide.
+
+Brakets
+Fairly new ide, something like Sublime. Made with nodejs. Lite, fast and highly customizable. Still around version 1. Looking forward for it.
+
+Sublime Text
+Veru nice ide. Customizable with packages. based on json. the program can be edited with json files. Supports many languages. Multi platform. 

@@ -1,0 +1,41 @@
+1.	C  Language
+C is one of the oldest programming languages. C is a compiled, procedural language developed in 1972 and it’s the “grandfather” of many programming languages like C++, C#, Perl and JavaScript. 
+Although C is a relatively old language, it is still widely used for system programming, writing other programming languages, and in embedded systems. C is powerful, stable and easily available on virtually all platforms.
+
+C: One of the oldest programming languages developed in 1972 by Dennis Ritchie for use in the UNIX operating system	
+C#: Programming language written by Microsoft in 2000 mainly for MS platform.
+C: compiled, procedural language	
+C#: compiled, object-oriented language
+C: easily available on virtually all platforms
+C#: open specification but rarely seen on non-Windows platform
+
+2.	Java
+Java is object-oriented programming language using a complier, developed by Sun Microsystems in 1995. There is many reasons why Java is one of the most popular programming languages.  Independent platform with well-organized language and strong library of reusable software components. Programs written in Java can run on many different computer architectures and operating systems because of the use of the JVM ( Java virtual machine ). Sometimes this is referred to as code portability or even WORA ( write once, run anywhere ). 
+
+Java: object-oriented programming language using a complier
+C#: compiled, object-oriented language
+Java: developed by Sun Microsystems in 1995
+C#:Microsoft in 2000
+Java: Independent platform with well-organized language and strong library of reusable software components
+C#: open specification but rarely seen on non-Windows platform
+
+3.	Objective C
+Objective-C was developed in 1983 by Tom Love and Brad Cox at Apple to address the objected-oriented deficiencies of C language. Objective C is the primary language used in Apple OS X and iOS operating systems. The surge in popularity of Macs and Apple “i’” devices (including iPad and iPhone) has created a huge demand for Objective-C programmers. A working knowledge of Objective-C will help you develop apps for iOS.
+
+Objective - C: Developed in 1983 by Tom Love and Brad Cox at Apple to address the objected-oriented deficiencies of C language.	
+C#: Programming language written by Microsoft in 2000 mainly for MS platform.
+Obj-C: object-oriented programming language
+C#: compiled, object-oriented language
+Obj-C: primary language used in Apple OS X and iOS operating systems
+C#: open specification but rarely seen on non-Windows platform
+
+4.	C++
+C++ is a compiled, multi-paradigm language written as an update to C in 1979 by Bjarne Stroustrup. It attempts to be backwards-compatible with C and brings object-orientation, which helps in larger projects. Despite it's age, C++ is used to create a wide array of applications from games to office suites. 
+It’s strength it the speed, the weakness is that C++ is older and considered more clumsy than newer object-oriented languages such as Java or C#.
+
+C++Written as an update to C in 1979 by Bjarne Stroustrup.
+C#: Programming language written by Microsoft in 2000 mainly for MS platform.
+C++: compiled, multi-paradigm language
+C#: compiled, object-oriented language
+C++: It’s strength it the speed.
+C#: Powerful and pretty fast. 

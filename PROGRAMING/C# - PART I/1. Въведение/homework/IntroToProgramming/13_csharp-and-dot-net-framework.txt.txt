@@ -1,0 +1,4 @@
+C# is object-oriented programming language developed mainly for MS platforms, while .Net Framework is software platform which runs primary on MS Windows and includes large library and provides language interoperability across several programming languages.
+C# is part of .NET platform where in possible to use many programming languages besides C# - C++, Java, Delphi and others. 
+.NET Framework provides a language interoperability (each language can use code written in other languages) across several programming languages which is not possible in C#. 
+Programs written for the .NET Framework execute in a software environment (as contrasted to hardware environment), known as the Common Language Runtime (CLR), an application virtual machine that provides services such as security, memory management, and exception handling. The class library and the CLR together constitute the .NET Framework.
