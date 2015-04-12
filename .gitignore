@@ -29,3 +29,8 @@ ocenqvane
 Tests
 Tasks from chapter 7
 Telerik-Academy-Tasks-master
+*.snippet
+*.png
+*.jpg
+*.exe
+*.dll
