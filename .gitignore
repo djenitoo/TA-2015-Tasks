@@ -1,20 +1,23 @@
-﻿# First, ignore everything
-*
-# Now, whitelist anything that's a directory
-!*/
-# And all the file types you're interested in.
-!*.gitignore
-!*/homework/*
-!*/9.Exam2015/*
-!*/ExamPrep/*
-!*/Frogger_Game/*
+﻿
 a. Друго
-JS BOOK
-Nevena work
-/PROGRAMING/C# - PART I/Отборна работа
-ocenqvane
-/PROGRAMING/C# - PART I/4. Вход и изход от конзолата/ocenqvane
-/PROGRAMING/C# - PART I/5. Условни конструкции/ocenqvane
-/PROGRAMING/C# - PART I/6. Цикли/ocenqvane
-7.ExamPrep
-Angry Bits
+2011 6 dec
+/PROGRAMING/C# - PART I/7.ExamPrep/2011 7 dec
+2011-2012 sample exam
+2011-2012 test exam
+2012 27 dec
+2012 29 dec
+2013 23 june
+2013 24 june
+prolet
+proverqvane
+winter 2012
+bin
+obj
+Въведение
+Отборна работа
+javascript-and-jquery-jul-2014
+myExamples
+/JS BOOK/*.pdf
+/JS BOOK/*.zip
+*.psd
+*.zip*.rar
