@@ -1,0 +1,20 @@
+﻿# First, ignore everything
+*
+# Now, whitelist anything that's a directory
+!*/
+# And all the file types you're interested in.
+!*.gitignore
+!*/homework/*
+!*/9.Exam2015/*
+!*/ExamPrep/*
+!*/Frogger_Game/*
+a. Друго
+JS BOOK
+Nevena work
+/PROGRAMING/C# - PART I/Отборна работа
+ocenqvane
+/PROGRAMING/C# - PART I/4. Вход и изход от конзолата/ocenqvane
+/PROGRAMING/C# - PART I/5. Условни конструкции/ocenqvane
+/PROGRAMING/C# - PART I/6. Цикли/ocenqvane
+7.ExamPrep
+Angry Bits
