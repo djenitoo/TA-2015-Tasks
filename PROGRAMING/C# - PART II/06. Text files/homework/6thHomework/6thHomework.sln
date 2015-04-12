@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.-PrintsOddLinesOfTXT", "01.-PrintsOddLinesOfTXT\01.-PrintsOddLinesOfTXT.csproj", "{5E080648-ED64-45F5-9A3A-DD9E86B2AFB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.-UniteTwoTextFilesInOne", "02.-UniteTwoTextFilesInOne\02.-UniteTwoTextFilesInOne.csproj", "{98DEF861-376B-4F70-8BB5-997CD6AB8456}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E080648-ED64-45F5-9A3A-DD9E86B2AFB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E080648-ED64-45F5-9A3A-DD9E86B2AFB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E080648-ED64-45F5-9A3A-DD9E86B2AFB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E080648-ED64-45F5-9A3A-DD9E86B2AFB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DEF861-376B-4F70-8BB5-997CD6AB8456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DEF861-376B-4F70-8BB5-997CD6AB8456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DEF861-376B-4F70-8BB5-997CD6AB8456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DEF861-376B-4F70-8BB5-997CD6AB8456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

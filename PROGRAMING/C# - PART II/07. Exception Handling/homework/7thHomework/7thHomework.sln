@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.-CheckIntNumb", "01.-CheckIntNumb\01.-CheckIntNumb.csproj", "{184F7BC0-4B52-4592-B99C-D0A1C04B238C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.-IfNumberInRangeException", "02.-IfNumberInRangeException\02.-IfNumberInRangeException.csproj", "{2FC5F09C-C5C4-4C2C-AFA6-426E2FC4E4A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{184F7BC0-4B52-4592-B99C-D0A1C04B238C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184F7BC0-4B52-4592-B99C-D0A1C04B238C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184F7BC0-4B52-4592-B99C-D0A1C04B238C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184F7BC0-4B52-4592-B99C-D0A1C04B238C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC5F09C-C5C4-4C2C-AFA6-426E2FC4E4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC5F09C-C5C4-4C2C-AFA6-426E2FC4E4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC5F09C-C5C4-4C2C-AFA6-426E2FC4E4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC5F09C-C5C4-4C2C-AFA6-426E2FC4E4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
