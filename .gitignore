@@ -58,6 +58,7 @@ JavaScript-OOP
 04. JS-OOP
 /PROGRAMING/HQC/Microsoft.Press.Code.Complete.2nd.Edition.Jun.2004
 <<<<<<< HEAD
+<<<<<<< HEAD
 bower_components
 /PROGRAMING/C# - PART II/03. Methods/homework/Unit-Testing-Demos
 Tasks from chapter 13
@@ -113,5 +114,7 @@ Best of Sublime Text 3: Features, Plugins, and Settings ♥ Scotch_files
 *.xml
 *.pdf
 web development
+=======
+>>>>>>> parent of 94f2fe0... update ignore list
 =======
 >>>>>>> parent of 94f2fe0... update ignore list
