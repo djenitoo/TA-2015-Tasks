@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chef", "Chef", "{2F600A29-C6C8-4342-B6D2-AAA924BB7ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chef", "Chef\Chef.csproj", "{858C2D3D-A3EC-4C0C-ADFB-A5B36CCD91AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactoringIfStatements", "RefactoringIfStatements", "{32C0078B-C48E-4687-8E28-2DECC8E85CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatement", "IfStatement\IfStatement.csproj", "{901479B6-91F2-4D7D-A96A-294142289EAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RefactoringLoops", "RefactoringLoops", "{DA1CC3B3-2069-44AD-8CB6-B8CECB286412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorLoop", "RefactorLoop\RefactorLoop.csproj", "{C2E41909-85F7-4EEB-AFCC-65E29A06C68E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{858C2D3D-A3EC-4C0C-ADFB-A5B36CCD91AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858C2D3D-A3EC-4C0C-ADFB-A5B36CCD91AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858C2D3D-A3EC-4C0C-ADFB-A5B36CCD91AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858C2D3D-A3EC-4C0C-ADFB-A5B36CCD91AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901479B6-91F2-4D7D-A96A-294142289EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901479B6-91F2-4D7D-A96A-294142289EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901479B6-91F2-4D7D-A96A-294142289EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901479B6-91F2-4D7D-A96A-294142289EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E41909-85F7-4EEB-AFCC-65E29A06C68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E41909-85F7-4EEB-AFCC-65E29A06C68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E41909-85F7-4EEB-AFCC-65E29A06C68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E41909-85F7-4EEB-AFCC-65E29A06C68E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{858C2D3D-A3EC-4C0C-ADFB-A5B36CCD91AD} = {2F600A29-C6C8-4342-B6D2-AAA924BB7ACF}
+		{901479B6-91F2-4D7D-A96A-294142289EAC} = {32C0078B-C48E-4687-8E28-2DECC8E85CD7}
+		{C2E41909-85F7-4EEB-AFCC-65E29A06C68E} = {DA1CC3B3-2069-44AD-8CB6-B8CECB286412}
+	EndGlobalSection
+EndGlobal
