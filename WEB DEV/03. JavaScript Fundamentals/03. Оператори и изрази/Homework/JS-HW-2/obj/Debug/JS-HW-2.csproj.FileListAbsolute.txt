@@ -1,5 +1,0 @@
-A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\03. Оператори и изрази\JS-HW-2\JS-HW-2\bin\JS-HW-2.dll
-A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\03. Оператори и изрази\JS-HW-2\JS-HW-2\bin\JS-HW-2.pdb
-A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\03. Оператори и изрази\JS-HW-2\JS-HW-2\obj\Debug\JS-HW-2.csprojResolveAssemblyReference.cache
-A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\03. Оператори и изрази\JS-HW-2\JS-HW-2\obj\Debug\JS-HW-2.dll
-A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\03. Оператори и изрази\JS-HW-2\JS-HW-2\obj\Debug\JS-HW-2.pdb
