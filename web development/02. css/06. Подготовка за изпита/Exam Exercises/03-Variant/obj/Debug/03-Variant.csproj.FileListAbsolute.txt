@@ -1,5 +1,0 @@
-A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\03-Variant\bin\03-Variant.dll
-A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\03-Variant\bin\03-Variant.pdb
-A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\03-Variant\obj\Debug\03-Variant.csprojResolveAssemblyReference.cache
-A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\03-Variant\obj\Debug\03-Variant.dll
-A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\03-Variant\obj\Debug\03-Variant.pdb
