@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements 1</title>
+    <link href="styles/js-console.min.css" rel="stylesheet" />
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="One.html">One</a></li>
+        <li><a href="Two.html">Two</a></li>
+        <li><a href="Three.html">Three</a></li>
+        <li><a href="Four.html">Four</a></li>
+        <li><a href="Five.html">Five</a></li>
+        <li><a href="Six.html">Six</a></li>
+        <li><a href="Seven.html">Seven</a></li>
+        <li><a href="Eight.html">Eight</a></li>
+        <li><a href="Nine.html">Nine</a></li>
+    </ul>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var a = 7;
+        var b = 6;
+        jsConsole.writeLine('a = ' + a + ' and b = ' + b);
+
+        if (a > b) {
+                var temp = a;
+                a = b;
+                b = temp;
+                jsConsole.writeLine('A is bigger than b, so now a = ' + a + ' and b = ' + b);
+            }
+    </script>
+</body>
+</html>
