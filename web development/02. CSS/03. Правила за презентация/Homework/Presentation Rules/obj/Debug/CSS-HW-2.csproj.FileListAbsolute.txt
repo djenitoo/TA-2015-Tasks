@@ -1,5 +1,0 @@
-A:\TERELIK\WEB DEVELOPMENT\CSS\03. Правила за презентация\CSS-Homework\CSS-HW-2\CSS-HW-2\bin\CSS-HW-2.dll
-A:\TERELIK\WEB DEVELOPMENT\CSS\03. Правила за презентация\CSS-Homework\CSS-HW-2\CSS-HW-2\bin\CSS-HW-2.pdb
-A:\TERELIK\WEB DEVELOPMENT\CSS\03. Правила за презентация\CSS-Homework\CSS-HW-2\CSS-HW-2\obj\Debug\CSS-HW-2.csprojResolveAssemblyReference.cache
-A:\TERELIK\WEB DEVELOPMENT\CSS\03. Правила за презентация\CSS-Homework\CSS-HW-2\CSS-HW-2\obj\Debug\CSS-HW-2.dll
-A:\TERELIK\WEB DEVELOPMENT\CSS\03. Правила за презентация\CSS-Homework\CSS-HW-2\CSS-HW-2\obj\Debug\CSS-HW-2.pdb
