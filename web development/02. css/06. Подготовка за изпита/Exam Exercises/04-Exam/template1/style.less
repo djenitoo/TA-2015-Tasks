@@ -1,0 +1,114 @@
+body, div, ul, li, a, h3, p, span
+{
+    margin: 0;
+    padding: 0;
+}
+.gradient(@from-color, @from-pos, @to-color, @to-pos){
+    background: @from-color; /* Old browsers */
+    background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* IE10+ */
+    background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 ); /* IE6-9 */
+}
+body {
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+
+        ul.menu {
+            list-style-type: none;
+            margin: 1em;
+            position: relative;
+
+            li {
+                vertical-align: top;
+                display: inline-block;
+                .gradient(#25dcf2,0%,#7995e2,100%);
+                border: 1px solid #000;
+                border-radius: 0.5em;
+                padding: 0.5em 1em;
+
+                a {
+                    text-decoration: none;
+                    color: #00f;
+                }
+
+                div.content {
+                    display: none;
+                    position: absolute;
+                    margin-left: -1.5em;
+                }
+
+                &:hover {
+                    a {
+                        font-size: 1.5em;
+                    }
+
+                    padding: 0.5em 2.5em;
+
+                    div.content {
+                        display: inline-block;
+                        .gradient(#fdffff,0%,#a0d8ef,100%);
+                        border: 1px solid #000;
+                        border-radius: 0.5em;
+                        padding: 0.5em 1em;
+                        font-size: 1em;
+
+                        h3 {
+                            margin-top: 1em;
+                            margin-bottom: 1em;
+                            text-decoration: underline;
+                        }
+
+                        p {
+                            margin-bottom: 1em;
+
+                            span.bold {
+                                font-weight: bold;
+                            }
+
+                            a {
+                                font-size: 1em;
+                            }
+                        }
+
+                        &:last-of-type {
+                            position: absolute;
+                            ul {
+                                display: inline-block;
+                                padding: 0;
+                                margin-left: 0.2em;
+                                list-style-type: square !important;
+
+                                li {
+                                    display: list-item;
+                                    list-style-type: square;
+                                    background: none;
+                                    border: 0px;
+                                    border-radius: 0px;
+                                    padding: 0;
+                                    
+
+                                    a {
+                                        display: block;
+                                        margin: 0;
+                                        font-size: 1em;
+                                        
+                                        &:hover {
+                                            text-decoration: underline;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

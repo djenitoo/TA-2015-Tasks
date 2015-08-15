@@ -1,0 +1,52 @@
+﻿body {
+    font-size: 16px;
+    font-family: Arial;
+    background-image: url(images/draws.png);
+    background-repeat: no-repeat;
+    /*background-position: 100% 0;*/
+}
+table {
+    border-collapse: collapse;
+    background-color: white;
+    border: 1px solid #c1c1c1;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+td, th {
+    padding: 0.3em 1em  0.3em  0.3em;
+    border-right: 1px solid #c1c1c1;
+}
+th {
+    text-align: left;
+    color: white;
+    border-bottom: 1px solid #808080;
+    font-weight: normal;
+    font-size: 0.8em;
+    /* Fallback */
+    background-color: #5EC306;
+    /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
+    background-image: -webkit-gradient(linear, top, bottom, from(#5ec306), to(#4eb106));
+    /* Firefox 3.6 - 15 */
+    background-image: -moz-linear-gradient(#5ec306, #4eb106);
+    /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
+    background-image: linear-gradient(#5ec306, #4eb106);
+}
+tr:nth-child(2n) {
+    background-color: #ececd8;
+}
+#germany:before {
+    content: url(images/germany.png);
+    margin-right: .2em;
+}
+#italy:before {
+    content: url(images/italy.png);
+    margin-right: .2em;
+}
+#spain:before {
+    content: url(images/spain.png);
+    margin-right: .2em;
+}
+#bulgaria:before {
+    content: url(images/bulgaria.png);
+    margin-right: .2em;
+}

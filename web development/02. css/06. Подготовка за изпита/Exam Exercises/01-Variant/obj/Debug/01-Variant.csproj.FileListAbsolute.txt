@@ -1,0 +1,11 @@
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\bin\01-Variant.dll
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\bin\01-Variant.pdb
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\obj\Debug\01-Variant.csprojResolveAssemblyReference.cache
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\obj\Debug\01-Variant.dll
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\obj\Debug\01-Variant.pdb
+E:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\bin\01-Variant.dll.config
+E:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\bin\01-Variant.dll
+E:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\bin\01-Variant.pdb
+E:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\obj\Debug\01-Variant.csprojResolveAssemblyReference.cache
+E:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\obj\Debug\01-Variant.dll
+E:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Variant\obj\Debug\01-Variant.pdb

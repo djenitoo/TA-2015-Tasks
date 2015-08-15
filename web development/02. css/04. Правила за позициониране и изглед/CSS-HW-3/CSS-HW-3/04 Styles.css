@@ -1,0 +1,124 @@
+﻿body, nav, ul, li, a, div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    font-size: 14px;
+    font-family: Verdana, sans-serif;
+}
+.main {
+    width: 70%;
+    margin: 1% 15%;
+    position: absolute;
+    background-color: #f1f1f1;
+    border: 2px solid #676767;
+}
+nav {
+    width: 18%;
+    margin: 0;
+    color: #950505;
+    font-weight: bold;
+    float:left;
+    
+}
+    nav a {
+        display: block;
+        color: #333;
+        text-decoration: none;
+        font-weight: normal;
+    }
+    nav ul li {
+        margin: 1em 0.5em;
+        text-align: left;
+    }
+    nav li:first-child a{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+        nav li:first-child a:before {
+            content: url("images/house.png");
+            margin-bottom: 0;
+        }
+ul li {
+    list-style-type: none;
+}
+.left {
+    width: 60%;
+    float: left;
+    background-color: white;
+    border: 2px solid #c4c4c4;
+    padding: 0.5em;
+    margin-top: 1px;
+}
+.previous {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid black;
+    margin-left: -2.8em;
+    margin-right: 2em;
+}
+.next {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid black;
+    margin-right: -2.8em;
+    margin-left: 2em;
+}
+button[type="button"] {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 3em;
+}
+h2 {
+    background-color: #818181;
+    color: #fbfbfb;
+    font-size: 1em;
+    font-weight: bold;
+}
+section p img {
+    float: left;
+    margin: 0 1em 1em;
+}
+section:first-of-type {
+    font-weight: bold;
+}
+section p a {
+    color: #950505;
+}
+aside {
+    float: right;
+    width: 18%;
+}
+    aside div {
+        background-color: white;
+        border: 1px solid #c4c4c4;
+        margin: 0.2em;
+    }
+        aside div h2 {
+            margin-top: 0;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        aside div a {
+            display: block;
+            color: #9a2f39;
+            text-align: center;
+        }
+            aside div a img {
+                margin: 0.2em;
+            }        
+    aside form {
+        text-align: center;
+    }
+input[type="search"] {
+    width: 70%;
+}

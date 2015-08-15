@@ -1,0 +1,109 @@
+body, div, ul, li
+{
+    margin:0;
+    padding:0;
+}
+
+.gradient(@from-color, @from-pos, @to-color, @to-pos){
+    background: @from-color; /* Old browsers */
+    background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* IE10+ */
+    background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Times New Roman';
+
+    div#wrapper {
+        width: 500px;
+
+        ul#popup-box {
+            margin: 1em;
+            list-style-type: none;
+            width: 90px;
+            li {
+                border-top: 1px solid black;
+                padding: 0.2em;
+                position: relative;
+
+                &:last-child {
+                    border-bottom: 1px solid black;
+                }
+                a {
+                    text-decoration: none;
+                   
+                    span {
+                        color: #474241;
+                        &.current {
+                            font-weight: bold;
+                        }
+                    }
+                    img {
+                        width: 1.2em;
+                        height: 1.2em;
+                    }
+                }
+
+                div {
+                    &.popup-content{
+                        position: absolute;
+                        left: 100px;
+                        top: 0px;
+
+                        a.btn-popup-close {
+                            position: absolute;
+                            right: 20px;
+                            top: 15px;
+                            border: 1px solid black;
+                            border-radius: 5px;
+                            padding: 0.1em 0.3em;
+                            color: black;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                        div {
+                            fieldset {
+                                legend {
+                                    font-weight: bold;
+                                }
+                                label {
+
+                                }
+                                select {
+                                    option {
+
+                                    }
+                                }
+                                textarea {
+
+                                }
+                                button {
+                                    .gradient(#cacaca, 0%, #686868, 100%);
+                                    border: 0px;
+                                    color: #333;
+                                    border-radius: 20px;
+                                    padding: 0.5em;
+                                    font-size: 0.8em;
+
+                                    &:hover {
+                                        background: #ccc;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.invisible {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

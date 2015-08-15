@@ -1,0 +1,5 @@
+A:\TERELIK\WEB DEVELOPMENT\CSS\02. Селектори, стилове и класове\CSS-HW-1\CSS-Homework-One\CSS-Homework-One\bin\CSS-Homework-One.dll
+A:\TERELIK\WEB DEVELOPMENT\CSS\02. Селектори, стилове и класове\CSS-HW-1\CSS-Homework-One\CSS-Homework-One\bin\CSS-Homework-One.pdb
+A:\TERELIK\WEB DEVELOPMENT\CSS\02. Селектори, стилове и класове\CSS-HW-1\CSS-Homework-One\CSS-Homework-One\obj\Debug\CSS-Homework-One.csprojResolveAssemblyReference.cache
+A:\TERELIK\WEB DEVELOPMENT\CSS\02. Селектори, стилове и класове\CSS-HW-1\CSS-Homework-One\CSS-Homework-One\obj\Debug\CSS-Homework-One.dll
+A:\TERELIK\WEB DEVELOPMENT\CSS\02. Селектори, стилове и класове\CSS-HW-1\CSS-Homework-One\CSS-Homework-One\obj\Debug\CSS-Homework-One.pdb
