@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Form of Grumpy</title>
+		<style type="text/css">
+			body {
+				background-color: thistle;
+			}
+			th {
+				width: 7em;
+			}
+			#the-state {
+				width: 5em;
+			}
+			input[type="number"] {
+				width: 8em;
+			}
+			input[type="number"]#country-code,#area-code, #birth-date,#day, #year, #phone, #phone1 {
+				width: 5em;
+			}
+			input[type="text"] {
+				width: 95%;
+			}
+			textarea {
+				width: 80%;
+			}
+			input[type="email"] {
+				width: 80%;
+			}
+			tfoot tr td {
+				background-color: red;
+				text-align: center;
+			}
+			td {
+				background-color: darksalmon;
+			}
+			th {
+				background-color: firebrick;
+			}
+			div {
+				color: dimgray;
+				font-style: italic;
+				font-family: Georgia;
+				width: 34em;
+				text-align: justify;
+
+			}
+		</style>
+	</head>
+		<body>
+		<form action="#" method="POST" name="person-form">
+			<table border="1">
+				<tbody>
+					<tr>
+						<th><label for="last-name">Last Name</label></th>
+						<td colspan="3"><input type="text" id="last-name" name="last-name" value="Cat"></td>
+					</tr>
+					<tr>
+						<th><label for="first-name">First Name</label></th>
+						<td colspan="3"><input type="text" name="first-name" id="first-name" value="Grumpy"></td>
+					</tr>
+					<tr>
+						<th><label for="address">Address</label></th>
+						<td colspan="3"><textarea name="address" id="address" rows="5" cols="20">"Best memes" street, number 1</textarea></td>
+					</tr>
+					<tr>
+						<th><label for="city">City</label></th>
+						<td><input type="text" name="city" id="city" value="9GAG"></td>
+						<th id="the-state"><label for="state">State</label></th>
+						<td>
+							<select name="state" size="1" id="state">
+								<option value="ZZ">None</option>
+								<option value="AL">AL</option>
+								<option value="AK">AK</option>
+								<option value="AZ">AZ</option>
+								<option value="AR">AR</option>
+								<option value="CA">CA</option>
+								<option value="CO">CO</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="zip-postal-code">Zip/Postal Code</label></th>
+						<td colspan="3"><input type="number" name="zip-postal-code" id="zip-postal-code" min="1000" max="9999" value="6666"></td>
+					</tr>
+					<tr>
+						<th><label for="country">Country</label></th>
+						<td colspan="3">
+							<select name="country" id="country">
+								<option selected value="BG">Bulgaria</option>
+								<option value="AU">Australia</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="phone">Phone(country code, area code, number)</label></th>
+						<td colspan="3">
+							(+<input type="number" name="country-code" max="1869" value="359" id="phone">
+							)<input type="number" name="area-code" value="77" id="phone1">
+							- <input type="number" name="phone" value="16161616">
+						</td>
+					</tr>
+					<tr>
+						<th><label for="email">Email</label></th>
+						<td colspan="3"><input type="email" id="email" name="email" value="grumpy-cat@hellno.com"></td>
+					</tr>
+					<tr>
+						<th><label for="birth-date">Birth date</label></th>
+						<td colspan="3">
+							Month <input type="number" min="1" max="12" value="4" name="month" id="birth-date">
+							 Day <input type="number" min="1" max="31" value="1" name="day" id="day">
+							  Year(4 digit) <input type="number" min="1920" max="2005" value="1999" id="year" name="year">
+							<sup>[1]</sup>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="gender">Gender</label></th>
+						<td colspan="3">
+							<select name="gender" id="gender">
+								<option value="c">Cat</option>
+								<option value="m">Male</option>
+								<option value="f">Female</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>Starting date</th>
+						<td colspan="3">
+							<input type="radio" name="starting-date" value="spring-2016" id="spring" checked>
+							<label for="spring">Spring 2016</label>
+							<input type="radio" name="starting-date" value="winter-2017" id="winter">
+							<label for="winter">Winter 2017</label>
+						</td>
+					</tr>
+					<tr>
+						<th><label for="comment">Comments/Questions</label></th>
+						<td colspan="3"><textarea name="comment-q" id="comment" rows="5" cols="20">NO.</textarea></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="4">
+							<input type="submit" value="Submit">
+							<input type="reset" value="Clear this form">
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</form>
+		<div>[1] Използвах за датата на раждане input type=number с min/max-ове, вместо новият атрибут на html5 type=date, защото е така в примера, с цел да упражним min/max предполагам :)</div>
+	</body>
+</html>

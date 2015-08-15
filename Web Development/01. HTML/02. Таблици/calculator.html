@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Simple Form</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	fieldset {
+		border: none;
+	}
+	input {
+		margin: 0;
+	}
+	input[type=button] {
+		height: 3em;
+		width: 3em;
+		padding: 1em;
+		margin-bottom: -1em;
+	}
+	input[type=text] {
+		text-align: right;
+	}
+	.zero input[type=button]  {
+		width: 6em;
+	}
+	tr td {
+		width: 2em;
+		height: 2em;
+		border: 0px solid black;
+		
+	}
+	tr {
+		
+	}
+	table {
+		border-spacing: 0;
+		border-collapse: collapse;
+		margin: 0;
+		width: 9em;
+		table-layout: fixed;
+
+	}
+	</style>
+</head>
+<body>
+	<form action="#" method="post">
+		<fieldset>
+			<table>
+				<tr><td colspan="4"><input type="text"></td></tr>
+				<tr class="rows">
+					<td><input type="button" value="1"></td>
+					<td><input type="button" value="2"></td>
+					<td><input type="button" value="3"></td>
+					<td><input type="button" value="+"></td>
+				</tr>
+				<tr class="rows">
+					<td><input type="button" value="4"></td>
+					<td><input type="button" value="5"></td>
+					<td><input type="button" value="6"></td>
+					<td><input type="button" value="-"></td>
+				</tr>
+				<tr class="rows">
+					<td><input type="button" value="7"></td>
+					<td><input type="button" value="8"></td>
+					<td><input type="button" value="9"></td>
+					<td><input type="button" value="*"></td>
+				</tr>
+				<tr class="rows">
+					<td colspan="2" class="zero"><input type="button" value="0"></td>
+					<td><input type="button" value="."></td>
+					<td><input type="button" value="/"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
