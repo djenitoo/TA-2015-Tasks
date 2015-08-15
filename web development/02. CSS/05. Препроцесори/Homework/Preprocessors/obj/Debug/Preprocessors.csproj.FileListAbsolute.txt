@@ -1,6 +1,0 @@
-E:\TELERIK\WEB DEV\02. CSS\05. Препроцесори\CSS-HW-4\CSS-HW-4\bin\Preprocessors.dll.config
-E:\TELERIK\WEB DEV\02. CSS\05. Препроцесори\CSS-HW-4\CSS-HW-4\bin\Preprocessors.dll
-E:\TELERIK\WEB DEV\02. CSS\05. Препроцесори\CSS-HW-4\CSS-HW-4\bin\Preprocessors.pdb
-E:\TELERIK\WEB DEV\02. CSS\05. Препроцесори\CSS-HW-4\CSS-HW-4\obj\Debug\Preprocessors.csprojResolveAssemblyReference.cache
-E:\TELERIK\WEB DEV\02. CSS\05. Препроцесори\CSS-HW-4\CSS-HW-4\obj\Debug\Preprocessors.dll
-E:\TELERIK\WEB DEV\02. CSS\05. Препроцесори\CSS-HW-4\CSS-HW-4\obj\Debug\Preprocessors.pdb
