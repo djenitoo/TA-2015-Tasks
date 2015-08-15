@@ -1,0 +1,106 @@
+body,
+div,
+ul,
+li,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper ul {
+  margin: 2em;
+  margin-top: 220px;
+  position: absolute;
+}
+body div#wrapper ul li {
+  display: inline-block;
+  vertical-align: bottom;
+  border: 1px solid #000;
+  padding: 0.5em 1em;
+  background: #aaffef;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaffef), color-stop(100%, #13ffd2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #aaffef 0%, #13ffd2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@from-color', endColorstr='@to-color', GradientType=0);
+  /* IE6-9 */
+}
+body div#wrapper ul li a {
+  text-decoration: none;
+  color: #0094ff;
+}
+body div#wrapper ul li div.msg-bar-content {
+  display: none;
+}
+body div#wrapper ul li:hover {
+  background: #00ddb3;
+  border-top: 4px solid #aaffef;
+}
+body div#wrapper ul li:hover div.msg-bar-content {
+  display: block;
+  margin-top: 1em;
+  position: absolute;
+  top: -436px;
+  left: -32px;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul {
+  display: block;
+  width: 470px;
+  height: 200px;
+  background: #aaffef;
+  border: 1px solid black;
+  border-bottom: 0px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul li {
+  background: none;
+  border: 0;
+  display: block;
+  color: #0094ff;
+  margin: 0.5em;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul li.me-item .user {
+  background: url(imgs/me.png) no-repeat top left;
+  background-position: 5% 50%;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul li.other-item .user {
+  background: url(imgs/male.png) no-repeat top left;
+  background-position: 5% 50%;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul li span:last-of-type {
+  display: inline-block;
+  text-align: right;
+  border-bottom: 1px solid black;
+  float: right;
+  clear: right;
+  width: 70%;
+  margin: 0.5em 0 -1em 0;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul li span.user {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 0.2em 1em 0.2em 1.5em;
+  margin-right: 1em;
+  margin-bottom: 0;
+}
+body div#wrapper ul li:hover div.msg-bar-content ul li:last-child span:last-of-type {
+  border-bottom: 0px;
+}

@@ -1,0 +1,103 @@
+body, ul, h1, li, p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.gradient(@from-color, @from-pos, @to-color, @to-pos){
+    background: @from-color; /* Old browsers */
+    background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* IE10+ */
+    background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 ); /* IE6-9 */
+}
+body {
+    font-size: 16px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+
+    div#wrapper {
+        width: 960px;
+        div {
+            margin: 1em;
+            display: inline-block;
+            .gradient(#eee,0%,#aaa,100%);
+            border: 1px solid black;
+            border-radius: 10px;
+
+            h1 {
+                margin: 0.5em;
+                color: #555;
+            }
+
+            ul.messages-list {
+                display: block;
+                list-style-type: none;
+                li {
+                    color: #555;
+                    padding: 0 0.5em;
+                    span {
+                            font-weight: bold;
+                            font-size: 1.1em;
+                        }
+                    &.me-item {
+                        margin: 10px 10px 10px 160px;
+                        .gradient(#2bedff,0%,#befaff,100%);
+                        border: 1px solid #3f3f3f;
+                        border-radius: 10px;
+
+                        span.date {
+                            font-size: small;
+                            font-weight: normal;
+                            margin-left: 110px;
+                        }
+                    }
+
+                    &.toshko-item {
+                        .gradient(#dfffd2,0%,#73ff3f,100%);
+                        border-radius: 10px;
+                        border: 1px solid #3f3f3f;
+                        margin: 10px 160px 10px 10px ;
+
+                        span:first-child {
+                            margin-left: 160px;
+                            
+                        }
+                        span.date {
+                            font-family: Consolas;
+                            font-size: small;
+                            font-weight: normal;
+                        }
+                    }
+                    
+                    
+                }
+            }
+            input {
+                width: 65%;
+                margin: 0.5em 0 0.5em 1em;
+
+                &[type="text"] {
+                    background: #eee;
+                    border-radius: 5px;
+                    border: 0px;
+                    color: #555;
+                    padding: 1em;
+                }
+            }
+            button {
+                padding: 0.3em 1em;
+                border-radius: 5px;
+                border: 0px;
+                font-size: 1.2em;
+                .gradient(#ececec,0%,#aeaeae,100%);
+                
+                &:hover {
+                    background: #eee;
+                }
+            }
+        }
+    }
+}

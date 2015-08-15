@@ -1,0 +1,45 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #3b3b3b;
+    color: #6e6e6e;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+article {
+    width: 50%;
+}
+h1 {
+    color: #fcd51b;
+    font-family: Georgia, sans-serif;
+    font-size: 1.5em;
+}
+header {
+    background-color: #363636;
+    background-image: url(images/comp.png);
+    background-position: 1em 1em;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset 0px -13px 7px -6px rgba(0, 0, 0, 0.30);
+    -moz-box-shadow:    inset 0px -13px 7px -6px rgba(0, 0, 0, 0.30);
+    box-shadow:         inset 0px -13px 7px -6px rgba(0, 0, 0, 0.30);
+    padding: 1em 1em 1em 4em;
+    color: white;
+    font-size: 1.6em;
+    font-family: Georgia, Times New Roman, sans-serif;
+    font-weight: bold;
+}
+input[type="submit"] {
+    background: url("images/go.png") no-repeat;
+    color: white;
+    width: 64px;
+    height: 36px;
+    border: 0;
+}
+section {
+    margin: 1em;
+}
+em {
+    color: #9d9d9d;
+    font-style: normal;
+}
+

@@ -1,0 +1,92 @@
+body,
+div,
+ul,
+li,
+a,
+img {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper ul.notification-list {
+  margin: 1em;
+  list-style-type: none;
+}
+body div#wrapper ul.notification-list li {
+  display: inline-block;
+  background: #ababab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ababab 0%, #dddddd 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(100%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ababab 0%, #dddddd 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ababab 0%, #dddddd 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ababab 0%, #dddddd 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ababab 0%, #dddddd 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@from-color', endColorstr='@to-color', GradientType=0);
+  /* IE6-9 */
+  border: 1px solid black;
+  padding: 0.5em 0.7em;
+  margin-right: -1em;
+}
+body div#wrapper ul.notification-list li:first-child {
+  border-top-left-radius: 15px;
+}
+body div#wrapper ul.notification-list li:last-child {
+  border-top-right-radius: 15px;
+}
+body div#wrapper ul.notification-list li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #777;
+  padding: 0.2em;
+}
+body div#wrapper ul.notification-list li img {
+  height: 0.8em;
+  width: 0.8em;
+}
+body div#wrapper ul.notification-list li div.content {
+  display: none;
+  position: absolute;
+  top: 55px;
+  left: 1em;
+}
+body div#wrapper ul.notification-list li:hover {
+  border-bottom: 1px solid #ddd;
+}
+body div#wrapper ul.notification-list li:hover div.content {
+  display: inline-block;
+}
+body div#wrapper ul.notification-list li:hover div.content ul {
+  width: 458px;
+  background: #ddd;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+body div#wrapper ul.notification-list li:hover div.content ul li {
+  display: block;
+  border: 0px;
+  border-radius: 0px;
+  background: none;
+}
+body div#wrapper ul.notification-list li:hover div.content ul li a {
+  font-size: 1em;
+}
+body div#wrapper ul.notification-list li:hover div.content ul li a img {
+  margin-right: .3em;
+}
+body div#wrapper ul.notification-list li:hover div.content ul li a:hover {
+  text-decoration: underline;
+}

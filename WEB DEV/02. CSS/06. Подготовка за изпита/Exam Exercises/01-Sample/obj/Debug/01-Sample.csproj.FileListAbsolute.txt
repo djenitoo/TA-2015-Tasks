@@ -1,0 +1,5 @@
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Sample\bin\01-Sample.dll
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Sample\bin\01-Sample.pdb
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Sample\obj\Debug\01-Sample.csprojResolveAssemblyReference.cache
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Sample\obj\Debug\01-Sample.dll
+A:\TERELIK\WEB DEVELOPMENT\02. CSS\06. Подготовка за изпита\Exam Exercises\01-Sample\obj\Debug\01-Sample.pdb
