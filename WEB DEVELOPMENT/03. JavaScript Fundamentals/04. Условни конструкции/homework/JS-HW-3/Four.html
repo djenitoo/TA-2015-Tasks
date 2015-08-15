@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements 4</title>
+    <link href="styles/js-console.min.css" rel="stylesheet" />
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="One.html">One</a></li>
+        <li><a href="Two.html">Two</a></li>
+        <li><a href="Three.html">Three</a></li>
+        <li><a href="Four.html">Four</a></li>
+        <li><a href="Five.html">Five</a></li>
+        <li><a href="Six.html">Six</a></li>
+        <li><a href="Seven.html">Seven</a></li>
+        <li><a href="Eight.html">Eight</a></li>
+        <li><a href="Nine.html">Nine</a></li>
+    </ul>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var a = 2;
+        var b = 9;
+        var c = 5;
+        jsConsole.writeLine('a=' + a + " b=" + b + ' c=' + c);
+
+        if ((a > b) && (a > c) && (b >= c)) {
+            jsConsole.writeLine('Sorted: ' + a + " " + b + ' ' + c);
+        }
+        else if ((a > b) && (a > c) && (b < c)) {
+            jsConsole.writeLine('Sorted: ' + a + " " + c + ' ' + b);
+        }
+
+        else if ((a < b) && (b > c) && (a >= c)) {
+            jsConsole.writeLine('Sorted: ' + b + " " + a + ' ' + c);
+        }
+        else if ((a < b) && (b > c) && (a < c)) {
+            jsConsole.writeLine('Sorted: ' + b + " " + c + ' ' + a);
+        }
+        
+        else if ((a < c) && (b < c) && (a == b)) {
+            jsConsole.writeLine('Sorted: ' + c + " " + a + ' ' + b);
+        }
+        else if ((a < c) && (b < c) && (a < b)) {
+            jsConsole.writeLine('Sorted: ' + c + " " + b + ' ' + a);
+        }
+        
+        else {
+            jsConsole.writeLine('The numbers are equal.' + a + " " + b + ' ' + c);
+        }
+    </script>
+</body>
+</html>

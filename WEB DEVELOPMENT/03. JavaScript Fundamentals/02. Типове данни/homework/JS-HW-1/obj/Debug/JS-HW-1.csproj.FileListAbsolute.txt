@@ -1,0 +1,5 @@
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\02. Типове данни\JS-HW-1\JS-HW-1\bin\JS-HW-1.dll
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\02. Типове данни\JS-HW-1\JS-HW-1\bin\JS-HW-1.pdb
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\02. Типове данни\JS-HW-1\JS-HW-1\obj\Debug\JS-HW-1.csprojResolveAssemblyReference.cache
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\02. Типове данни\JS-HW-1\JS-HW-1\obj\Debug\JS-HW-1.dll
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\02. Типове данни\JS-HW-1\JS-HW-1\obj\Debug\JS-HW-1.pdb

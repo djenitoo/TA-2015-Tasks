@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Conditional Statements 1</title>
+    <link href="styles/js-console.min.css" rel="stylesheet" />
+</head>
+<body>
+    <ul id="menu">
+        <li><a href="One.html">One</a></li>
+        <li><a href="Two.html">Two</a></li>
+        <li><a href="Three.html">Three</a></li>
+        <li><a href="Four.html">Four</a></li>
+        <li><a href="Five.html">Five</a></li>
+        <li><a href="Six.html">Six</a></li>
+        <li><a href="Seven.html">Seven</a></li>
+        <li><a href="Eight.html">Eight</a></li>
+        <li><a href="Nine.html">Nine</a></li>
+    </ul>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var number = 999;
+        var output = ' ';
+        //if (number < 10) {
+        //    if (number === 0) {
+        //        jsConsole.writeLine('Zero.');
+        //    }
+        //    else {
+        //        switch (number) {
+        //            case 1:
+        //                jsConsole.writeLine('One.');
+        //                break;
+        //            case 2:
+        //                jsConsole.writeLine('Two.');
+        //                break;
+        //            case 3:
+        //                jsConsole.writeLine('Three.');
+        //                break;
+        //            case 4:
+        //                jsConsole.writeLine('Four.');
+        //                break;
+        //            case 5:
+        //                jsConsole.writeLine('Five.');
+        //                break;
+        //            case 6:
+        //                jsConsole.writeLine('Six.');
+        //                break;
+        //            case 7:
+        //                jsConsole.writeLine('Seven.');
+        //                break;
+        //            case 8:
+        //                jsConsole.writeLine('Eight.');
+        //                break;
+        //            case 9:
+        //                jsConsole.writeLine('Nine.');
+        //                break;
+        //        }
+        //    }
+        //}
+        //else if (number < 20) {
+        //    switch (number) {
+        //        case 10:
+        //            jsConsole.writeLine('Ten ');
+        //            break;
+        //        case 11:
+        //            jsConsole.writeLine('Eleven ');
+        //            break;
+        //        case 12:
+        //            jsConsole.writeLine('Twelve');
+        //            break;
+        //        case 13:
+        //            jsConsole.writeLine('Thirteen');
+        //            break;
+        //        case 14:
+        //            jsConsole.writeLine('Fourteen');
+        //            break;
+        //        case 15:
+        //            jsConsole.writeLine('Fifteen');
+        //            break;
+        //        case 16:
+        //            jsConsole.writeLine('Sixteen');
+        //            break;
+        //        case 17:
+        //            jsConsole.writeLine('Seventeen');
+        //            break;
+        //        case 18:
+        //            jsConsole.writeLine('Eighteen');
+        //            break;
+        //        case 19:
+        //            jsConsole.writeLine('Nineteen');
+        //            break;
+
+        //    }
+        //}
+        jsConsole.writeLine(165/100);
+
+        function digits(number) {
+            if (number === 0) {
+                otuput += 'Zero';
+            }
+            else {
+                switch (number) {
+                    case 1:
+                        output += 'One';
+                        break;
+                    case 2:
+                        output += 'Two';
+                        break;
+                    case 3:
+                        output += 'Three';
+                        break;
+                    case 4:
+                        output += 'Four';
+                        break;
+                    case 5:
+                        output += 'Five';
+                        break;
+                    case 6:
+                        output += 'Six';
+                        break;
+                    case 7:
+                        output += 'Seven';
+                        break;
+                    case 8:
+                        output += 'Eight';
+                        break;
+                    case 9:
+                        output += 'Nine';
+                        break;
+                }
+            }
+        }
+
+        function edinici(number) {
+            if (number === 0) {
+                otuput += 'Zero';
+            }
+            else {
+                switch (number) {
+                    case 11:
+                        output += 'Eleven';
+                        break;
+                    case 12:
+                        output += 'Twelve';
+                        break;
+                    case 13:
+                        output += 'Thirteen';
+                        break;
+                    case 14:
+                        output += 'Fourteen';
+                        break;
+                    case 15:
+                        output += 'Fifteen';
+                        break;
+                    case 16:
+                        output += 'Sixteen';
+                        break;
+                    case 17:
+                        output += 'Seventeen';
+                        break;
+                    case 18:
+                        output += 'Eighteen';
+                        break;
+                    case 19:
+                        output += 'Nineteen';
+                        break;
+                }
+            }
+        }
+        function desitici(number) {
+            if (number === 0) {
+                otuput += 'Zero';
+            }
+            else {
+                switch (number) {
+                    case 1:
+                        output += 'Ten';
+                        break;
+                    case 2:
+                        output += 'Twenty';
+                        break;
+                    case 3:
+                        output += 'Thirty';
+                        break;
+                    case 4:
+                        output += 'Fourty';
+                        break;
+                    case 5:
+                        output += 'Fifty';
+                        break;
+                    case 6:
+                        output += 'Sixty';
+                        break;
+                    case 7:
+                        output += 'Seventy';
+                        break;
+                    case 8:
+                        output += 'Eighty';
+                        break;
+                    case 9:
+                        output += 'Ninety';
+                        break;
+                }
+            }
+        }
+
+        if (number < 10) {
+            digits(number);
+            jsConsole.writeLine(result);
+        }
+        else if (number < 100) {
+            if (number % 10 === 0) {
+                desitici(number);
+                jsConsole.writeLine(output);
+            }
+            else if (number < 20) {
+                edinici(number);
+                jsConsole.writeLine(output);
+            }
+            else {
+                desitici(number / 10);
+                output += ' ';
+                digits(number % 10);
+                output += '.';
+                jsConsole.writeLine(output);
+            }
+        }
+        else {
+            if (number % 100 == 0) {
+                digits(parseInt(number/100));
+                output += ' hundred.'
+                jsConsole.writeLine(output);
+            }
+            else if (number % 10 === 0) {
+                digits(parseInt(number / 100));
+                output += ' hundred and '
+                desitici((number % 100) / 10);
+                output += '.';
+                jsConsole.writeLine(output);
+            }
+            else if (number % 100 < 20) {
+                digits(parseInt(number / 100));
+                output += ' hundred and ';
+                edinici(parseInt(number % 100));
+                output += '.';
+                jsConsole.writeLine(output);
+            }
+            else {
+                digits(parseInt(number/100));
+                output += ' hundred ';
+                desitici(parseInt(parseInt(number % 100) / 10));
+                output += ' ';
+                digits(parseInt(number % 10));
+                output += '.';
+                jsConsole.writeLine(output);
+            }
+        }
+    </script>
+</body>
+</html>

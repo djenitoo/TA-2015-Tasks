@@ -1,0 +1,5 @@
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\04. Условни конструкции\JS-HW-3\JS-HW-3\bin\JS-HW-3.dll
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\04. Условни конструкции\JS-HW-3\JS-HW-3\bin\JS-HW-3.pdb
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\04. Условни конструкции\JS-HW-3\JS-HW-3\obj\Debug\JS-HW-3.csprojResolveAssemblyReference.cache
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\04. Условни конструкции\JS-HW-3\JS-HW-3\obj\Debug\JS-HW-3.dll
+A:\TERELIK\WEB DEVELOPMENT\03. JavaScript Fundamentals\04. Условни конструкции\JS-HW-3\JS-HW-3\obj\Debug\JS-HW-3.pdb
