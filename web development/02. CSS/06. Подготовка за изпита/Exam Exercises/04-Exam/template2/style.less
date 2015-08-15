@@ -1,0 +1,119 @@
+body, div, input, button, h2, span, strong, ul, li
+{
+    margin:0;
+    padding:0;
+}
+
+.gradient(@from-color, @from-pos, @to-color, @to-pos){
+    background: @from-color; /* Old browsers */
+    background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); /* IE10+ */
+    background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+    font-size: 18px;  
+    font-family: Arial;
+
+    #root {
+        width: 610px;
+        margin: 1em;
+        h1 {
+            text-align: center;
+            font-style: italic;
+            color: #2aa0bd;
+        }
+        div {
+            &#me {
+                float: left;
+                width: 49%;
+                display: inline-block;
+            }
+
+            &#other {
+                float: right;
+                display: inline-block;
+                width: 49%;
+            }
+            &.chat-container {
+                .gradient(#4ae871,0%,#f1ffbc,100%);
+                border: 1px solid #ccc;
+                border-radius: 0.3em;
+
+                h2 {
+                    margin: 1em 0;
+                    color: #2aa0bd;
+                    padding: 0 0.1em;
+                    text-align: center;
+
+                    
+                }
+                div {
+                    div.messages {
+                        height: 300px;
+                        ul {
+                            list-style-type: none;
+                            margin: 0 1em;
+                            color: #2aa0bd;
+                            li {
+                                border-bottom: 1px solid black;
+                                
+                                &:last-child {
+                                    border-bottom: 0px;
+                                }
+                                &.me {
+                                    text-align: left;
+                                }
+                                &.other {
+                                    text-align: right;
+                                }
+                                strong {
+                                    display: block;
+                                    font-style: italic;
+                                    font-weight: normal;
+                                }
+                                span {
+                                    display: block;
+                                    -ms-word-wrap: break-word;
+                                    word-wrap: break-word;
+                                }
+                            }
+                        }
+                    }
+                    div.sent-message {
+                        input {
+                            margin-left: 0.2em;
+                            background: #f1ffbc;
+                            border: 1px solid #ccc;
+                            border-top-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                            padding: 0.2em 0.7em;
+                            width: 60%;
+                            font-size: 1em;
+                            color: #2aa0bd;
+                            &::-webkit-input-placeholder {
+                            }
+                        }
+                        button {
+                            border: 1px solid #ccc;
+                            border-top-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                            padding: 0.2em 0.7em;
+                            font-size: 1em;
+                            color: #2aa0bd;
+                            background: #f1ffbc;
+
+                            &:hover {
+                                .gradient(#4ae871,0%,#f1ffbc,100%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
