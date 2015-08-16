@@ -1,0 +1,38 @@
+﻿body {
+    background-color: #a9a9a9;
+    font-size: 14px;
+}
+body>header {
+    text-align: center;
+}
+header {
+    color: #fafad2;
+    font-size: 1.5em;
+}
+ul li {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li a:link, li a:visited {
+    color: #fff;
+}
+.current {
+    background-color: #d3d3d3;
+}
+li a:hover {
+    text-decoration: underline;
+}
+article > p {
+    font-size: 1.2em;
+}
+footer p {
+    font-size: small;
+}
+body > footer {
+    font-size: 1.2em;
+    text-align: center;
+}

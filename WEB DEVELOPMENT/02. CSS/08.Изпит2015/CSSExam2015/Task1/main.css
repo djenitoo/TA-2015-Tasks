@@ -1,0 +1,71 @@
+﻿body,
+ul,
+li,
+a,
+div,
+img,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: "Times New Roman";
+  color: #000000;
+}
+body #root ul.avengers {
+  list-style-type: none;
+  position: relative;
+}
+body #root ul.avengers li.avenger {
+  display: inline-block;
+  border: 3px solid black;
+  border-right: 0;
+  margin-right: -4px;
+  border-top-left-radius: 15px;
+  padding: 10px 15px;
+}
+body #root ul.avengers li.avenger:last-of-type {
+  border-right: 3px solid black;
+}
+body #root ul.avengers li.avenger .name {
+  font-weight: bold;
+}
+body #root ul.avengers li.avenger div.preview {
+  display: none;
+}
+body #root ul.avengers li.avenger:hover {
+  background-color: #CCCCCC;
+  border-bottom: 3px solid white;
+}
+body #root ul.avengers li.avenger:hover div.preview {
+  background-color: #CCCCCC;
+  border: 3px solid black;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  display: block;
+  width: 629px;
+  padding: 15px;
+}
+body #root ul.avengers li.avenger:hover div.preview img {
+  border: 5px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  width: 60%;
+  height: 60%;
+}
+body #root ul.avengers li.avenger:hover div.preview ul {
+  vertical-align: top;
+  display: inline-block;
+  list-style-type: none;
+  padding: 30px;
+  margin-top: 10px;
+  padding-left: 45px;
+}
+body #root ul.avengers li.avenger:hover div.preview ul li {
+  font-size: 20px;
+  margin: 25px;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=main.css.map */
