@@ -22,7 +22,7 @@
   ```
   **Answer:** The expected running time of the code is `~n * n` times, because the code definitely 
   will run once `n` times,  and with every run of this times inside the `while` loop we will run again
-  from `zero` to again `n`.
+  from `zero` to again `n - 1`.
 
 2. **What is the expected running time of the following C# code?**
   - Explain why using Markdown.
@@ -40,9 +40,9 @@
       return count;
   }
   ```
-  **Answer:** I think the expected running time will be `~n` + `idk*(m)`. 
-  Where idk is the number of even numbers in the first col. 
-  (Can we say that idk is const? Idk)
+  **Answer:** I think the expected running time will be ~`n` * `(idk*(m))`. 
+  Where idk is the number of even numbers in the first col. Can vary from zero to m.
+  (We can we say that idk is const?)
 
 3. **(*) What is the expected running time of the following C# code?**
   - Explain why using Markdown.
